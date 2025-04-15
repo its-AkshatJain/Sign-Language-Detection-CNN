@@ -1,0 +1,37 @@
+# Ignore dataset folder
+test/
+train/
+*.zip
+
+# Ignore all image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# Jupyter and Python ignores
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.h5
+*.hdf5
+
+# VS Code and system ignores
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.out
+
+# Virtual environment
+env/
+venv/
+ENV/
