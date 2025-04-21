@@ -13,7 +13,8 @@ st.title("🧠 Sign Language Real-Time Classifier")
 
 # Load model
 model = None
-model_path = 'sign_language_model.h5'
+model_path = r'working MobileNetV2\sign_language_model.keras'
+
 
 if os.path.exists(model_path):
     try:
@@ -71,7 +72,7 @@ def process_image(img):
     display_image = img_cv.copy()
 
     h, w = img_cv.shape[:2]
-    size = int(min(h, w) * 0.6)
+    size = int(min(h, w) * 0.8)
     x = (w - size) // 2
     y = (h - size) // 2
 
