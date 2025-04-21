@@ -13,7 +13,7 @@ st.title("🧠 Sign Language Real-Time Classifier")
 
 # Load model
 model = None
-model_path = r'working MobileNetV2\sign_language_model.keras'
+model_path = os.path.join('working MobileNetV2', 'sign_language_model.keras')
 
 
 if os.path.exists(model_path):
