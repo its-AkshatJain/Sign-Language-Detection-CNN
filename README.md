@@ -11,7 +11,8 @@ A real-time hand sign detection application built using TensorFlow and Streamlit
 - Top-3 class predictions with confidence scores  
 - Preprocessing pipeline for grayscale conversion, blurring, and JPEG compression  
 - Simple and interactive user interface built with Streamlit  
-- Fallback simulated predictions if the model is not found  
+- Fallback simulated predictions if the model is not found
+- Try it here: [American Sign Language Detection](https://signlanguagedetection-akshatjain.streamlit.app/)  
 
 ---
 
